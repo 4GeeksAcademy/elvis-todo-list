@@ -11,7 +11,7 @@ export default function Todo(props) {
                 onMouseEnter={() => setShowDelete(true)} 
                 onMouseLeave={() => setShowDelete(false)}
             >
-                <p>{todo}</p>
+                <p>{todo.label}</p>
 
                 {showDelete && (
                     <p onClick={() => removeTodo(index)}>Delete Icon</p>

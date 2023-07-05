@@ -8,7 +8,6 @@ import Home from './home.jsx';
 import TodoPage from './TodoPage.jsx';
 import ContextProvider from '../Context.jsx';
 
-
 export default function Router() {
     return (
         <BrowserRouter>
